@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7BA2BD12-A497-4739-83E5-E2501994C722}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Basoglu</RootNamespace>
+    <AssemblyName>Basoglu</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HtmlAgilityPack, Version=1.12.1.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <HintPath>..\packages\HtmlAgilityPack.1.12.1\lib\Net45\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.6.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ComponentModel.Annotations.5.0.0\lib\net461\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encodings.Web.6.0.0\lib\net461\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json, Version=6.0.0.10, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Json.6.0.10\lib\net461\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnaMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnaMenu.Designer.cs">
+      <DependentUpon>AnaMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CihazServisFirmaGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CihazServisFirmaGuncelle.Designer.cs">
+      <DependentUpon>CihazServisFirmaGuncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CihazTamirGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CihazTamirGuncelle.Designer.cs">
+      <DependentUpon>CihazTamirGuncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CihazTamirGuncelleMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CihazTamirGuncelleMenu.Designer.cs">
+      <DependentUpon>CihazTamirGuncelleMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DisKaynakUrunGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DisKaynakUrunGuncelle.Designer.cs">
+      <DependentUpon>DisKaynakUrunGuncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GarantiGoruntule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GarantiGoruntule.Designer.cs">
+      <DependentUpon>GarantiGoruntule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GarantiGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GarantiGuncelle.Designer.cs">
+      <DependentUpon>GarantiGuncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GarantiMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GarantiMenu.Designer.cs">
+      <DependentUpon>GarantiMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\Logger.cs" />
+    <Compile Include="KullaniciAdiContext.cs" />
+    <Compile Include="ListeleYICihazlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListeleYICihazlar.Designer.cs">
+      <DependentUpon>ListeleYICihazlar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListeleYIUrunler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListeleYIUrunler.Designer.cs">
+      <DependentUpon>ListeleYIUrunler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StoktanUrunleriGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StoktanUrunleriGuncelle.Designer.cs">
+      <DependentUpon>StoktanUrunleriGuncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TonerEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TonerEkle.Designer.cs">
+      <DependentUpon>TonerEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TonerGoruntule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TonerGoruntule.Designer.cs">
+      <DependentUpon>TonerGoruntule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TonerGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TonerGuncelle.Designer.cs">
+      <DependentUpon>TonerGuncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TonerMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TonerMenu.Designer.cs">
+      <DependentUpon>TonerMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UrunleriGoruntule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UrunleriGoruntule.Designer.cs">
+      <DependentUpon>UrunleriGoruntule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YapilanIs.cs" />
+    <Compile Include="YapilanIsGoster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YapilanIsGoster.Designer.cs">
+      <DependentUpon>YapilanIsGoster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YapilanIslerGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YapilanIslerGuncelle.Designer.cs">
+      <DependentUpon>YapilanIslerGuncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YapilanIslerMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YapilanIslerMenu.Designer.cs">
+      <DependentUpon>YapilanIslerMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YapılanIslerGoster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YapılanIslerGoster.Designer.cs">
+      <DependentUpon>YapılanIslerGoster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YapılanIslerGuncelleMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YapılanIslerGuncelleMenu.Designer.cs">
+      <DependentUpon>YapılanIslerGuncelleMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YICihazlariGoster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YICihazlariGoster.Designer.cs">
+      <DependentUpon>YICihazlariGoster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="database.cs" />
+    <Compile Include="Firma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Firma.Designer.cs">
+      <DependentUpon>Firma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FirmaEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FirmaEkle.Designer.cs">
+      <DependentUpon>FirmaEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FirmaGoruntule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FirmaGoruntule.Designer.cs">
+      <DependentUpon>FirmaGoruntule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FirmaGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FirmaGuncelle.Designer.cs">
+      <DependentUpon>FirmaGuncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CihazTamir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CihazTamir.Designer.cs">
+      <DependentUpon>CihazTamir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GarantiEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GarantiEkle.Designer.cs">
+      <DependentUpon>GarantiEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\TimeHelper.cs" />
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServisFirma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServisFirma.Designer.cs">
+      <DependentUpon>ServisFirma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServisFirmaGoruntule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServisFirmaGoruntule.Designer.cs">
+      <DependentUpon>ServisFirmaGoruntule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServisFirmaGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServisFirmaGuncelle.Designer.cs">
+      <DependentUpon>ServisFirmaGuncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServisFirmaMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServisFirmaMenu.Designer.cs">
+      <DependentUpon>ServisFirmaMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Urun.cs" />
+    <Compile Include="UrunEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UrunEkle.Designer.cs">
+      <DependentUpon>UrunEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UrunGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UrunGuncelle.Designer.cs">
+      <DependentUpon>UrunGuncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Urunler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Urunler.Designer.cs">
+      <DependentUpon>Urunler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VeriTabani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VeriTabani.Designer.cs">
+      <DependentUpon>VeriTabani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YapilanIsler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YapilanIsler.Designer.cs">
+      <DependentUpon>YapilanIsler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YICihazlar.cs" />
+    <Compile Include="YIGuncelleCihazTamirEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YIGuncelleCihazTamirEkle.Designer.cs">
+      <DependentUpon>YIGuncelleCihazTamirEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YIServisFirma.cs" />
+    <Compile Include="Cihaz.cs" />
+    <Compile Include="YIStoktanUrunEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YIStoktanUrunEkle.Designer.cs">
+      <DependentUpon>YIStoktanUrunEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YIUrun.cs" />
+    <Compile Include="YIUrunEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YIUrunEkle.Designer.cs">
+      <DependentUpon>YIUrunEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YIUrunEkleMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YIUrunEkleMenu.Designer.cs">
+      <DependentUpon>YIUrunEkleMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YIUrunGuncelleUrunEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YIUrunGuncelleUrunEkle.Designer.cs">
+      <DependentUpon>YIUrunGuncelleUrunEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YIUrunler.cs" />
+    <Compile Include="YIUrunleriGoster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YIUrunleriGoster.Designer.cs">
+      <DependentUpon>YIUrunleriGoster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YIUrunleriGuncelleMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YIUrunleriGuncelleMenu.Designer.cs">
+      <DependentUpon>YIUrunleriGuncelleMenu.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AnaMenu.resx">
+      <DependentUpon>AnaMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CihazServisFirmaGuncelle.resx">
+      <DependentUpon>CihazServisFirmaGuncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CihazTamirGuncelle.resx">
+      <DependentUpon>CihazTamirGuncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CihazTamirGuncelleMenu.resx">
+      <DependentUpon>CihazTamirGuncelleMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisKaynakUrunGuncelle.resx">
+      <DependentUpon>DisKaynakUrunGuncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GarantiGoruntule.resx">
+      <DependentUpon>GarantiGoruntule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GarantiGuncelle.resx">
+      <DependentUpon>GarantiGuncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GarantiMenu.resx">
+      <DependentUpon>GarantiMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListeleYICihazlar.resx">
+      <DependentUpon>ListeleYICihazlar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListeleYIUrunler.resx">
+      <DependentUpon>ListeleYIUrunler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StoktanUrunleriGuncelle.resx">
+      <DependentUpon>StoktanUrunleriGuncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TonerEkle.resx">
+      <DependentUpon>TonerEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TonerGoruntule.resx">
+      <DependentUpon>TonerGoruntule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TonerGuncelle.resx">
+      <DependentUpon>TonerGuncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TonerMenu.resx">
+      <DependentUpon>TonerMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UrunleriGoruntule.resx">
+      <DependentUpon>UrunleriGoruntule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YapilanIsGoster.resx">
+      <DependentUpon>YapilanIsGoster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YapilanIslerGuncelle.resx">
+      <DependentUpon>YapilanIslerGuncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YapilanIslerMenu.resx">
+      <DependentUpon>YapilanIslerMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YapılanIslerGoster.resx">
+      <DependentUpon>YapılanIslerGoster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YapılanIslerGuncelleMenu.resx">
+      <DependentUpon>YapılanIslerGuncelleMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YICihazlariGoster.resx">
+      <DependentUpon>YICihazlariGoster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CihazTamir.resx">
+      <DependentUpon>CihazTamir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Firma.resx">
+      <DependentUpon>Firma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FirmaEkle.resx">
+      <DependentUpon>FirmaEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FirmaGoruntule.resx">
+      <DependentUpon>FirmaGoruntule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FirmaGuncelle.resx">
+      <DependentUpon>FirmaGuncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GarantiEkle.resx">
+      <DependentUpon>GarantiEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServisFirma.resx">
+      <DependentUpon>ServisFirma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServisFirmaGoruntule.resx">
+      <DependentUpon>ServisFirmaGoruntule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServisFirmaGuncelle.resx">
+      <DependentUpon>ServisFirmaGuncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServisFirmaMenu.resx">
+      <DependentUpon>ServisFirmaMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UrunEkle.resx">
+      <DependentUpon>UrunEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UrunGuncelle.resx">
+      <DependentUpon>UrunGuncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Urunler.resx">
+      <DependentUpon>Urunler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VeriTabani.resx">
+      <DependentUpon>VeriTabani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YapilanIsler.resx">
+      <DependentUpon>YapilanIsler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YIGuncelleCihazTamirEkle.resx">
+      <DependentUpon>YIGuncelleCihazTamirEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YIStoktanUrunEkle.resx">
+      <DependentUpon>YIStoktanUrunEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YIUrunEkle.resx">
+      <DependentUpon>YIUrunEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YIUrunEkleMenu.resx">
+      <DependentUpon>YIUrunEkleMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YIUrunGuncelleUrunEkle.resx">
+      <DependentUpon>YIUrunGuncelleUrunEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YIUrunleriGoster.resx">
+      <DependentUpon>YIUrunleriGoster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YIUrunleriGuncelleMenu.resx">
+      <DependentUpon>YIUrunleriGuncelleMenu.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

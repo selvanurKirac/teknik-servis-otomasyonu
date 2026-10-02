@@ -1,0 +1,451 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|c:\\users\\z1m1n\\desktop\\basoglu\\basoglu\\basoglu\\veritabani.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|solutionrelative:basoglu\\veritabani.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|c:\\users\\z1m1n\\desktop\\basoglu\\basoglu\\basoglu\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|solutionrelative:basoglu\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\basoglu\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|solutionrelative:basoglu\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Basoglu||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\basoglu\\garantiekle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|solutionrelative:basoglu\\garantiekle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|c:\\users\\z1m1n\\desktop\\basoglu\\basoglu\\basoglu\\anamenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|solutionrelative:basoglu\\anamenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\basoglu\\helper\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|solutionrelative:basoglu\\helper\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\basoglu\\servisfirmamenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|solutionrelative:basoglu\\servisfirmamenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\basoglu\\garantiekle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|solutionrelative:basoglu\\garantiekle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\basoglu\\listeleyiurunler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|solutionrelative:basoglu\\listeleyiurunler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\basoglu\\listeleyicihazlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|solutionrelative:basoglu\\listeleyicihazlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\basoglu\\listeleyicihazlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|solutionrelative:basoglu\\listeleyicihazlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\basoglu\\yapilanisgoster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|solutionrelative:basoglu\\yapilanisgoster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\basoglu\\yapilanisgoster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|solutionrelative:basoglu\\yapilanisgoster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\basoglu\\yiurunlerigoster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|solutionrelative:basoglu\\yiurunlerigoster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\basoglu\\yiurunguncelleurunekle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|solutionrelative:basoglu\\yiurunguncelleurunekle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\basoglu\\yiurunguncelleurunekle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|solutionrelative:basoglu\\yiurunguncelleurunekle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\basoglu\\anamenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|solutionrelative:basoglu\\anamenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\basoglu\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|solutionrelative:basoglu\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\basoglu\\yapilanisler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|solutionrelative:basoglu\\yapilanisler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\basoglu\\yapilanisler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|solutionrelative:basoglu\\yapilanisler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\basoglu\\diskaynakurunguncelle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|solutionrelative:basoglu\\diskaynakurunguncelle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\basoglu\\diskaynakurunguncelle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|solutionrelative:basoglu\\diskaynakurunguncelle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\basoglu\\yiurunleriguncellemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|solutionrelative:basoglu\\yiurunleriguncellemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\basoglu\\stoktanurunleriguncelle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|solutionrelative:basoglu\\stoktanurunleriguncelle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\basoglu\\stoktanurunleriguncelle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|solutionrelative:basoglu\\stoktanurunleriguncelle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\basoglu\\yiurun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|solutionrelative:basoglu\\yiurun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BA2BD12-A497-4739-83E5-E2501994C722}|Basoglu\\Basoglu.csproj|c:\\users\\z1m1n\\desktop\\basoglu\\basoglu\\basoglu\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1010,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VeriTabani.cs",
+              "DocumentMoniker": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\VeriTabani.cs",
+              "RelativeDocumentMoniker": "Basoglu\\VeriTabani.cs",
+              "ToolTip": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\VeriTabani.cs",
+              "RelativeToolTip": "Basoglu\\VeriTabani.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T16:00:48.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "database.cs",
+              "DocumentMoniker": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\database.cs",
+              "RelativeDocumentMoniker": "Basoglu\\database.cs",
+              "ToolTip": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\database.cs",
+              "RelativeToolTip": "Basoglu\\database.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T15:57:07.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Basoglu",
+              "DocumentMoniker": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\Basoglu.csproj",
+              "RelativeDocumentMoniker": "Basoglu\\Basoglu.csproj",
+              "ToolTip": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\Basoglu.csproj",
+              "RelativeToolTip": "Basoglu\\Basoglu.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-16T09:49:16.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AnaMenu.cs",
+              "DocumentMoniker": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\AnaMenu.cs",
+              "RelativeDocumentMoniker": "Basoglu\\AnaMenu.cs",
+              "ToolTip": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\AnaMenu.cs",
+              "RelativeToolTip": "Basoglu\\AnaMenu.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAtwEoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T10:20:16.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GarantiEkle.cs",
+              "DocumentMoniker": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\GarantiEkle.cs",
+              "RelativeDocumentMoniker": "Basoglu\\GarantiEkle.cs",
+              "ToolTip": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\GarantiEkle.cs",
+              "RelativeToolTip": "Basoglu\\GarantiEkle.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAzwFMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T03:17:39.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\Login.cs",
+              "RelativeDocumentMoniker": "Basoglu\\Login.cs",
+              "ToolTip": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\Login.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Basoglu\\Login.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T10:06:10.811Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\helper\\Logger.cs",
+              "RelativeDocumentMoniker": "Basoglu\\helper\\Logger.cs",
+              "ToolTip": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\helper\\Logger.cs",
+              "RelativeToolTip": "Basoglu\\helper\\Logger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T03:12:25.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ServisFirmaMenu.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\ServisFirmaMenu.cs",
+              "RelativeDocumentMoniker": "Basoglu\\ServisFirmaMenu.cs",
+              "ToolTip": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\ServisFirmaMenu.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Basoglu\\ServisFirmaMenu.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T04:03:10.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GarantiEkle.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\GarantiEkle.cs",
+              "RelativeDocumentMoniker": "Basoglu\\GarantiEkle.cs",
+              "ToolTip": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\GarantiEkle.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Basoglu\\GarantiEkle.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T03:17:30.863Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ListeleYIUrunler.cs",
+              "DocumentMoniker": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\ListeleYIUrunler.cs",
+              "RelativeDocumentMoniker": "Basoglu\\ListeleYIUrunler.cs",
+              "ToolTip": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\ListeleYIUrunler.cs",
+              "RelativeToolTip": "Basoglu\\ListeleYIUrunler.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAUwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T03:03:44.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ListeleYICihazlar.cs",
+              "DocumentMoniker": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\ListeleYICihazlar.cs",
+              "RelativeDocumentMoniker": "Basoglu\\ListeleYICihazlar.cs",
+              "ToolTip": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\ListeleYICihazlar.cs",
+              "RelativeToolTip": "Basoglu\\ListeleYICihazlar.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAwFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T03:03:20.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ListeleYICihazlar.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\ListeleYICihazlar.cs",
+              "RelativeDocumentMoniker": "Basoglu\\ListeleYICihazlar.cs",
+              "ToolTip": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\ListeleYICihazlar.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Basoglu\\ListeleYICihazlar.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T03:03:18.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "YapilanIsGoster.cs",
+              "DocumentMoniker": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\YapilanIsGoster.cs",
+              "RelativeDocumentMoniker": "Basoglu\\YapilanIsGoster.cs",
+              "ToolTip": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\YapilanIsGoster.cs",
+              "RelativeToolTip": "Basoglu\\YapilanIsGoster.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAswGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T15:55:45.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "YapilanIsGoster.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\YapilanIsGoster.cs",
+              "RelativeDocumentMoniker": "Basoglu\\YapilanIsGoster.cs",
+              "ToolTip": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\YapilanIsGoster.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Basoglu\\YapilanIsGoster.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T15:55:40.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "YIUrunleriGoster.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\YIUrunleriGoster.cs",
+              "RelativeDocumentMoniker": "Basoglu\\YIUrunleriGoster.cs",
+              "ToolTip": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\YIUrunleriGoster.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Basoglu\\YIUrunleriGoster.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T15:55:21.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "YIUrunGuncelleUrunEkle.cs",
+              "DocumentMoniker": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\YIUrunGuncelleUrunEkle.cs",
+              "RelativeDocumentMoniker": "Basoglu\\YIUrunGuncelleUrunEkle.cs",
+              "ToolTip": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\YIUrunGuncelleUrunEkle.cs",
+              "RelativeToolTip": "Basoglu\\YIUrunGuncelleUrunEkle.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAAAKIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T15:33:10.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "YIUrunGuncelleUrunEkle.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\YIUrunGuncelleUrunEkle.cs",
+              "RelativeDocumentMoniker": "Basoglu\\YIUrunGuncelleUrunEkle.cs",
+              "ToolTip": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\YIUrunGuncelleUrunEkle.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Basoglu\\YIUrunGuncelleUrunEkle.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T15:33:02.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AnaMenu.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\AnaMenu.cs",
+              "RelativeDocumentMoniker": "Basoglu\\AnaMenu.cs",
+              "ToolTip": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\AnaMenu.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Basoglu\\AnaMenu.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T10:17:01.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\Login.cs",
+              "RelativeDocumentMoniker": "Basoglu\\Login.cs",
+              "ToolTip": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\Login.cs",
+              "RelativeToolTip": "Basoglu\\Login.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T10:06:19.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "YapilanIsler.cs",
+              "DocumentMoniker": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\YapilanIsler.cs",
+              "RelativeDocumentMoniker": "Basoglu\\YapilanIsler.cs",
+              "ToolTip": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\YapilanIsler.cs",
+              "RelativeToolTip": "Basoglu\\YapilanIsler.cs",
+              "ViewState": "AgIAAMQAAAAAAAAAAAAIwOoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:29:26.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "YapilanIsler.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\YapilanIsler.cs",
+              "RelativeDocumentMoniker": "Basoglu\\YapilanIsler.cs",
+              "ToolTip": "C:\\Users\\z1m1n\\Desktop\\Basoglu_son\\Basoglu\\Basoglu\\YapilanIsler.cs [Tasar\u0131m]",
+              "RelativeToolTip": "..\\..\\Basoglu_son\\Basoglu\\Basoglu\\YapilanIsler.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:29:22.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DisKaynakUrunGuncelle.cs",
+              "DocumentMoniker": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\DisKaynakUrunGuncelle.cs",
+              "RelativeDocumentMoniker": "Basoglu\\DisKaynakUrunGuncelle.cs",
+              "ToolTip": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\DisKaynakUrunGuncelle.cs",
+              "RelativeToolTip": "Basoglu\\DisKaynakUrunGuncelle.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAADwv60AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:23:10.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DisKaynakUrunGuncelle.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\DisKaynakUrunGuncelle.cs",
+              "RelativeDocumentMoniker": "Basoglu\\DisKaynakUrunGuncelle.cs",
+              "ToolTip": "C:\\Users\\z1m1n\\Desktop\\Basoglu_son\\Basoglu\\Basoglu\\DisKaynakUrunGuncelle.cs [Tasar\u0131m]",
+              "RelativeToolTip": "..\\..\\Basoglu_son\\Basoglu\\Basoglu\\DisKaynakUrunGuncelle.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:23:06.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "YIUrunleriGuncelleMenu.cs",
+              "DocumentMoniker": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\YIUrunleriGuncelleMenu.cs",
+              "RelativeDocumentMoniker": "Basoglu\\YIUrunleriGuncelleMenu.cs",
+              "ToolTip": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\YIUrunleriGuncelleMenu.cs",
+              "RelativeToolTip": "Basoglu\\YIUrunleriGuncelleMenu.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:22:59.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "StoktanUrunleriGuncelle.cs",
+              "DocumentMoniker": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\StoktanUrunleriGuncelle.cs",
+              "RelativeDocumentMoniker": "Basoglu\\StoktanUrunleriGuncelle.cs",
+              "ToolTip": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\StoktanUrunleriGuncelle.cs",
+              "RelativeToolTip": "Basoglu\\StoktanUrunleriGuncelle.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAADwv7UAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:22:22.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "StoktanUrunleriGuncelle.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\StoktanUrunleriGuncelle.cs",
+              "RelativeDocumentMoniker": "Basoglu\\StoktanUrunleriGuncelle.cs",
+              "ToolTip": "C:\\Users\\z1m1n\\Desktop\\Basoglu_son\\Basoglu\\Basoglu\\StoktanUrunleriGuncelle.cs [Tasar\u0131m]",
+              "RelativeToolTip": "..\\..\\Basoglu_son\\Basoglu\\Basoglu\\StoktanUrunleriGuncelle.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:22:17.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "YIUrun.cs",
+              "DocumentMoniker": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\YIUrun.cs",
+              "RelativeDocumentMoniker": "Basoglu\\YIUrun.cs",
+              "ToolTip": "C:\\Users\\z1m1n\\Desktop\\Basoglu\\Basoglu\\Basoglu\\YIUrun.cs",
+              "RelativeToolTip": "Basoglu\\YIUrun.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T01:53:03.905Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
